@@ -213,22 +213,23 @@ body {
 		<div class="content_wrap">
 			<h1><img src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack/110/Party-Poppers-128.png" alt="icon finder free icon" />
 
-<img src="https://user-images.githubusercontent.com/57120911/67732752-bc447f00-fa3f-11e9-9345-c37c36214311.jpg" />
+				<img src="https://user-images.githubusercontent.com/57120911/67732752-bc447f00-fa3f-11e9-9345-c37c36214311.jpg" />
 
 
 
 
 <img src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack/110/Party-Poppers-128.png" alt="icon finder free icon"  /></h1></div>
-<div class="slide_wrap">
-			<div id="autoplay" style="display:none;">
-				<!-- //이미지 추가 -->
-		<img src="https://user-images.githubusercontent.com/57120911/67840941-538dfd00-fb3a-11e9-86de-aa6a5af8ce75.jpg" />
-		<img src="https://user-images.githubusercontent.com/57120911/67840951-57ba1a80-fb3a-11e9-8c57-80b7992b6884.jpg" />
-		<img src="https://user-images.githubusercontent.com/57120911/67840960-5b4da180-fb3a-11e9-8245-49a02962a77b.jpg" />
-		<img src="https://user-images.githubusercontent.com/57120911/67840965-5ee12880-fb3a-11e9-84f4-ceced2adc3a1.jpg" />
-		<img src="https://user-images.githubusercontent.com/57120911/67840969-61dc1900-fb3a-11e9-817d-4389877c4c69.jpg" />
-		<img src="https://user-images.githubusercontent.com/57120911/67840973-66083680-fb3a-11e9-8c03-52d3d2e48171.jpg" /></div>
+	<div class="slide_wrap">
+		<div id="autoplay" style="display:none;">
+					<!-- //이미지 추가 -->
+			<img src="https://user-images.githubusercontent.com/57120911/67840941-538dfd00-fb3a-11e9-86de-aa6a5af8ce75.jpg" />
+			<img src="https://user-images.githubusercontent.com/57120911/67840951-57ba1a80-fb3a-11e9-8c57-80b7992b6884.jpg" />
+			<img src="https://user-images.githubusercontent.com/57120911/67840960-5b4da180-fb3a-11e9-8245-49a02962a77b.jpg" />
+			<img src="https://user-images.githubusercontent.com/57120911/67840965-5ee12880-fb3a-11e9-84f4-ceced2adc3a1.jpg" />
+			<img src="https://user-images.githubusercontent.com/57120911/67840969-61dc1900-fb3a-11e9-817d-4389877c4c69.jpg" />
+			<img src="https://user-images.githubusercontent.com/57120911/67840973-66083680-fb3a-11e9-8c03-52d3d2e48171.jpg" />
 		</div>
+	</div>
 			<div class="date_wrap">
 			<span><img src="https://cdn2.iconfinder.com/data/icons/office-38/24/office-40-128.png" alt="time" />각 과정을 클릭하면 동영상을 볼 수 있습니다.</span>
 		</div>
@@ -244,7 +245,7 @@ body {
 		<div class="addr_wrap">
 			<span><img src="https://cdn4.iconfinder.com/data/icons/miu/24/house-home-real_estate-property-glyph-128.png" alt="place" />초대장소 : <strong>무극중앙성결교회 2층 중예배실</strong> | 충북 음성군 금왕읍 대금로 1458-6</span>
 		</div>
-		<div class="map_wrap" id="map"></div>
+		
 		<div class="tras_wrap" id="img100">
 			<div>
 			<img src="https://user-images.githubusercontent.com/57120911/67908262-3438b380-fbbe-11e9-932c-1fe7d50cf45c.JPG" />	
@@ -255,6 +256,8 @@ body {
 	</div>
 	
 	
+	<script>
+	var latlng = "36.9872306,127.5939027,19"; //구글맵에서 위치 검색 후, 맵을 클릭하면 나오는 하단의 좌표를 입력한다.
 
 	function initMap() {
 		if (latlng.length <= 0)
